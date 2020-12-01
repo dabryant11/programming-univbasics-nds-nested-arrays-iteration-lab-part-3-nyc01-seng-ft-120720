@@ -2,7 +2,6 @@ require 'pry'
 def join_nested_strings(src)
   total = []
   outter = 0  
-  binding.pry
 
     while outter < src[outter].length do
       inner = 0
