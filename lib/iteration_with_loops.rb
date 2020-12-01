@@ -7,7 +7,7 @@ def join_nested_strings(src)
       inner = 0
       while inner < src[outter].count do 
 
-        if src[outter].include? ""
+        if src[outter][inner].class ""
           total << src[outter][inner]
         end 
         inner += 1
