@@ -3,7 +3,7 @@ def join_nested_strings(src)
   total = []
   outter = 0  
 
-    while outter < src[outter].count do
+    while outter < src.count do
       inner = 0
       while inner < src[outter].count do 
 
