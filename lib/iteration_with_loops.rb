@@ -6,7 +6,6 @@ def join_nested_strings(src)
     while outter < src[outter].length do
       inner = 0
       while inner < src[outter].length do 
-              binding.pry
 
         # if src[outter].include? ""
         #   total << src[outter][inner]
