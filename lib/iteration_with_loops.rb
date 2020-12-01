@@ -3,9 +3,9 @@ def join_nested_strings(src)
   total = []
   outter = 0  
 
-    while outter < src[outter].length do
+    while outter < src[outter].count do
       inner = 0
-      while inner < src[outter].length do 
+      while inner < src[outter].count do 
 
         # if src[outter].include? ""
         #   total << src[outter][inner]
