@@ -1,6 +1,6 @@
 require 'pry'
 def join_nested_strings(src)
-  total = []
+  total = ""
   outter = 0  
 
     while outter < src.count do
