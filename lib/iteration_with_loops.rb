@@ -2,8 +2,9 @@ require 'pry'
 def join_nested_strings(src)
   total = []
   outter = 0  
+  binding.pry
+
     while src[outter] < src[outter].length do
-binding.pry
       inner = 0
       while inner < src[outter][inner].length do 
         if src[outter][inner].include? ""
