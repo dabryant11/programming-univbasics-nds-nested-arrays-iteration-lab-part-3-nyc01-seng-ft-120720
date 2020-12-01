@@ -8,9 +8,9 @@ def join_nested_strings(src)
       while inner < src[outter].length do 
               binding.pry
 
-        if src[outter].include? ""
-          total << src[outter][inner]
-        end 
+        # if src[outter].include? ""
+        #   total << src[outter][inner]
+        # end 
         inner += 1
       end 
       outter += 1
