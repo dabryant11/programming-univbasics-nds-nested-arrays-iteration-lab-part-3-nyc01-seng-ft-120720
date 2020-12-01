@@ -4,6 +4,7 @@ def join_nested_strings(src)
   outter = 0  
 
     while outter < src[outter].length do
+      binding.pry
       inner = 0
       while inner < src[outter].length do 
         if src[outter].include? ""
